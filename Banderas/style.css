@@ -1,0 +1,43 @@
+.banderas{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+body{
+    height: 710px;
+    
+}
+.españa{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+}
+.andalucia{
+    height: 50%;
+    width: 100%;
+}
+.españa .rojo{
+    height: 33%;
+    background-color: red;
+    width: 100%;
+}
+.españa .amarillo{
+    height: 33%;
+    background-color: yellow;
+    width: 100%;
+}
+.andalucia .verde{
+    height: 33%;
+    background-color: green;
+    width: 100%;
+}
+.andalucia .blanco{
+    height: 33%;
+    background-color: blanco;
+    width: 100%;
+}
