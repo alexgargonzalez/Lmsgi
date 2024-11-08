@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELEBIRRIA - Formulario de Pedido</title>
+    <style>
+        form {
+            width: 50%;
+        }
+        .scroll-menu {
+            height: 100px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TELEBIRRIA</h1>
+    <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Datos personales y de envío</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" ><br><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" ><br><br>
+
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio" ><br><br>
+
+            <label for="localidad">Localidad:</label>
+            <input type="text" id="localidad" name="localidad" ><br><br>
+
+            <label for="codigo_postal">Código postal:</label>
+            <input type="text" id="codigo_postal" name="codigo_postal"><br><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" >
+        </fieldset>
+
+        <fieldset>
+            <legend>Elija la opción de entrega</legend>
+            <label><input type="radio" name="entrega" value="recoger" required> Recoger en local</label><br>
+            <label><input type="radio" name="entrega" value="domicilio"> Enviar a domicilio</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Elija su menú</legend>
+
+            <label>Tamaño del bocadillo:</label>
+            <div class="scroll-menu">
+                <label><input type="radio" name="tamano_bocadillo" value="pequeño" > pequeño</label><br>
+                <label><input type="radio" name="tamano_bocadillo" value="mediano" > mediano</label><br>
+                <label><input type="radio" name="tamano_bocadillo" value="grande"> grande</label><br>
+                <label><input type="radio" name="tamano_bocadillo" value="enorme"> enorme</label><br>
+            </div><br>
+
+            <label>Contenido del bocadillo:</label>
+            <div class="scroll-menu">
+                <label><input type="radio" name="contenido_bocadillo" value="anchoas" > anchoas</label><br>
+                <label><input type="radio" name="contenido_bocadillo" value="calamares"> calamares</label><br>
+                <label><input type="radio" name="contenido_bocadillo" value="mejillones"> mejillones</label><br>
+                <label><input type="radio" name="contenido_bocadillo" value="jamon"> jamón</label><br>
+            </div><br>
+
+            <label for="sugerencias">Puede añadir alguna sugerencia:</label><br>
+            <textarea id="sugerencias" name="sugerencias" style="height: 200px; width: 400px;"></textarea><br><br>
+        </fieldset>
+
+        <button type="submit">Enviar datos</button>
+    </form>
+</body>
+</html>
