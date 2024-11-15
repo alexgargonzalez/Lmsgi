@@ -50,21 +50,25 @@
         <fieldset>
             <legend>Elija su menú</legend>
 
-            <label>Tamaño del bocadillo:</label>
-            <div class="scroll-menu">
-                <label><input type="radio" name="tamano_bocadillo" value="pequeño" > pequeño</label><br>
-                <label><input type="radio" name="tamano_bocadillo" value="mediano" > mediano</label><br>
-                <label><input type="radio" name="tamano_bocadillo" value="grande"> grande</label><br>
-                <label><input type="radio" name="tamano_bocadillo" value="enorme"> enorme</label><br>
-            </div><br>
+            <label>Tamaño del bocadillo:</label><br><br>
+           
+            <select id="size" name="size">
+                <option value="pequeño">pequeño</option>
+                <option value="mediano">mediano</option>
+                <option value="grande">grande</option>
+                <option value="enorme">enorme</option>
+              </select><br><br>
+         
 
-            <label>Contenido del bocadillo:</label>
-            <div class="scroll-menu">
-                <label><input type="radio" name="contenido_bocadillo" value="anchoas" > anchoas</label><br>
-                <label><input type="radio" name="contenido_bocadillo" value="calamares"> calamares</label><br>
-                <label><input type="radio" name="contenido_bocadillo" value="mejillones"> mejillones</label><br>
-                <label><input type="radio" name="contenido_bocadillo" value="jamon"> jamón</label><br>
-            </div><br>
+            <label>Contenido del bocadillo:</label><br><br>
+    
+            <select id="size" name="size">
+              <option value="pequeño">anchoas</option>
+              <option value="mediano">calamares</option>
+              <option value="grande">mejillones</option>
+              <option value="enorme">jamon</option>
+            </select><br><br>
+            
 
             <label for="sugerencias">Puede añadir alguna sugerencia:</label><br>
             <textarea id="sugerencias" name="sugerencias" style="height: 200px; width: 400px;"></textarea><br><br>
