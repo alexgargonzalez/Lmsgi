@@ -1,0 +1,11 @@
+p{
+    border: 1px solid black;
+    color: blue;
+    background-color: grey;
+}
+.p-amarillo{
+    background-color: yellow;
+}
+#p6{
+    font-size: 2em;
+}
