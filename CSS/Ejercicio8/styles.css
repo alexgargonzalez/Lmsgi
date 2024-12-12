@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+#p1{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 0px;
+}
+#p2{
+    border: 5px solid blue;
+    margin: 0px;
+    padding: 5px;
+}
+#p3{
+    border: 5px solid red;
+    margin: 5px;
+    padding: 20px;
+}
