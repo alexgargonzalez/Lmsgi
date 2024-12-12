@@ -1,0 +1,27 @@
+body{
+    height: 50vh;
+    margin: 0;
+}
+.div1{
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+}
+.div2{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+.div3{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+.div4{
+    width: 50%;
+    height: 50%;
+    background-color: chartreuse;
+}
+h2{
+    font-size: 25px;
+}
