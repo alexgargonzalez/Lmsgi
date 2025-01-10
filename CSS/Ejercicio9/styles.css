@@ -1,0 +1,62 @@
+#cabecera{
+    background-color: orange;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#hiper{
+    background-color: brown;
+    padding-top: u;
+}
+#hiper  a{
+    padding: 5px;
+    background-color: white;
+}
+h1{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+img{
+    position: relative;
+    float: right;
+    height: 100px;
+    width: 100px;
+    bottom: 40px;
+    right: 50px;
+}
+#contenido1{
+    margin-top: 10px;
+    text-align: justify;
+    width: 60%;
+    height: 65%;
+    float: left;
+    background-color: magenta;
+    padding: 25px;
+}
+#contenido2{
+    margin-top: 10px;
+    width: 30%;
+    height: 65%;
+    float: right;
+    background-color: blue;
+
+}
+#pie{
+    position: relative;
+    top: 10px;
+    background-color: grey;
+    height: 10%;
+    clear: both;
+}
+#todo{
+    margin: auto;
+    width: 50%;
+    height: 600px;
+    background-color: white;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
