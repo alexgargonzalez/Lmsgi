@@ -1,0 +1,111 @@
+body {
+    margin: 0 auto;
+}
+
+#contenedor {
+    width: 80%;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+#SupI {
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+}
+
+#SupI h1 {
+    font-family: arial;
+    color: red
+}
+
+#SupI h3 {
+    color: blue;
+}
+
+
+#SupD {
+    float: right;
+    margin-right: 20px
+}
+
+#conectar {
+
+}
+
+#Central {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#MedI {
+    float: left;
+    width: 49%;
+}
+
+#MedD {
+    float: right;
+    width: 49%;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+legend {
+    color: green
+}
+
+
+label {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+
+}
+
+select {
+
+}
+
+textarea {
+
+}
+
+
+
+/* Botones */
+.boton {
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.boton:hover {
+
+}
+
+
+#Pie {
+    margin: 0 auto;
+    clear: both;
+}
+
+
+@media (max-width: 768px) {
+    #Central {
+
+    }
+    
+    #conectar {
+
+    }
+    
+    input, select, textarea {
+
+    }
+}

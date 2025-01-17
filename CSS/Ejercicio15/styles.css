@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.todo{
+    margin: 0 auto;
+    width: 50%;
+}
+.todo .header{
+    background-color: red;
+    width: 100%;
+    line-height: 100px;
+    height: 100px;
+    
+}
+.todo .header img{
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+.todo .header h1{
+    margin-left: 20px;
+}
+.todo .contenido1{
+    height: 400px;
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+    background-color: gray;
+}
+.todo .contenido1 ul{
+    list-style: none;
+    text-align: center;
+}
+.todo .contenido1 ul li{
+    margin-bottom: 20px;
+}
+.todo .contenido2{
+    height: 400px;
+    background-color: blue;
+}
+.footer{
+    background-color: grey;
+    line-height: 50px;
+    
+    text-align: center;
+}
