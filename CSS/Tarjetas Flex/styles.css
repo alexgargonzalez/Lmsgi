@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 2em;
+}
+section{
+    display: flex;
+    
+}
+article{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+#articulo-1{
+    background-color: #7ebdbb;
+}
+#articulo-2{
+    background-color: #b6ebb3;
+}
+#articulo-3{
+    background-color: #bacee3;
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
