@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "article"
+    "footer";
+}
+#header{
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+#main{
+    display: flex;
+    grid-area: article;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+}
+#footer{
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}

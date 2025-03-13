@@ -1,0 +1,15 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 60%;
+}
+.tarjeta{
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
