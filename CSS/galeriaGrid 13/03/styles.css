@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-areas: "rojo rojo rojo azul azul azul"
+                        "naranja rojo rojo blanco blanco blanco"
+                        "naranja rojo rojo blanco blanco blanco"
+                        "naranja rojo rojo blanco blanco blanco"
+                        "naranja rojo rojo blanco blanco blanco"
+                        "naranja rojo rojo blanco blanco blanco"
+                        "naranja rojo rojo blanco azul naranja";
+    grid-gap: 1em;
+    padding: 1em;
+
+}
+.item1{
+    grid-area: rojo;
+    background-color: red;
+}
+.item2{
+    grid-area: naranja;
+    background-color: orange;
+}
+.item3{
+    grid-area: blanco;
+    background-color: white;
+}
+.item4{
+    grid-area: azul;
+    background-color: blue;
+}

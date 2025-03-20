@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: grey;
+    
+}
+header img{
+    height: 100px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.cartas{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 10px;
+}
+img{
+    height: 200px;
+    
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    overflow: hidden;
+    
+}
+.carta:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.carta .texto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.texto h4{
+    font-size: 1.5em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+.texto p{
+    font-size: 0.8em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: grey;
+    padding: 30px;
+}
+.capa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
