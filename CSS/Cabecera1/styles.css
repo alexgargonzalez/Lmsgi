@@ -62,7 +62,7 @@ nav{
     
 }
 
-.btn a:hover{
+.btn:hover{
     transform: translate(10px);
 }
 

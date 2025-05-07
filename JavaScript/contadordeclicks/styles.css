@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.botones button{
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 15px 10px 20px black;
+}
+.botones button:hover{
+    transition: ease-in-out 2s;
+    transform:translateY(-10px)
+}

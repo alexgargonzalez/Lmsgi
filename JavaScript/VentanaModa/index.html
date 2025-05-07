@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ventana modal</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ea ipsa natus voluptatibus et quaerat provident similique beatae, soluta rem quidem consectetur sapiente voluptas nostrum corporis quas sed voluptatum error.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sequi autem iusto optio perferendis laborum quibusdam obcaecati voluptates! Architecto quae repellat maiores quibusdam, nulla ab quam veritatis rerum quisquam? Consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dignissimos quasi illum, inventore error eos veritatis, vero laudantium aperiam molestiae dolor sunt exercitationem voluptatem, necessitatibus repellendus suscipit rerum quos. Nisi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, perspiciatis? Quis neque illo consectetur reiciendis optio, rem harum odit repellendus quaerat temporibus quas, tempore ab totam asperiores, pariatur nesciunt saepe.</p>
+
+    <button onclick="abrir()" id="btn-abrir">Abrir modal</button>
+    <a onclick="masGrande()"><img id="imagen" style="width: 100px;"  src="https://kinsta.com/es/wp-content/uploads/sites/8/2019/09/jpg-vs-jpeg-1024x512.jpg" alt=""></a>
+    
+    <dialog id="modal">
+        <h1>Soy un modal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laboriosam molestias magnam cupiditate laborum expedita natus ullam, quia earum magni harum quos culpa sit minima ut amet quas, sint vitae.</p>
+        <button onclick="cerrar()" id="btn-cerrar">Cerrar modal</button>
+    </dialog>
+
+    <dialog id="imagenes">
+        <a onclick="masGrande()"><img id="imagen" style="width: 500px;"  src="https://kinsta.com/es/wp-content/uploads/sites/8/2019/09/jpg-vs-jpeg-1024x512.jpg" alt=""></a>
+        <button onclick="menosGrande()">Menos grande</button>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>

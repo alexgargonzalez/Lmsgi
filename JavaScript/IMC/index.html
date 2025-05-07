@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculo de IMC</h1>
+    <p>Introduce tu peso:</p>
+    <input type="text" id="peso">
+    <p>Introduce tu altura:</p>
+    <input type="text" id="altura">
+    <button onclick="calcular()" style="display: block; margin-top: 20px;">Click aqui para calcular</button>
+    
+
+    <p id="resultado"></p>
+
+    <p id="salud"></p>
+    <script>
+
+        function calcular(){
+        let peso = document.getElementById("peso").value;
+        let altura = document.getElementById("altura").value;
+        let parrafo = document.getElementById("resultado");
+        let parrafosalud = document.getElementById("salud");
+        
+        let xd = parrafo.innerText = (peso / Math.pow(altura/100, 2));
+
+        if ((xd < 18.5)){
+            parrafosalud.innerText = "Bajo de peso"
+        } else if (xd > 18.5 && xd < 24.9){
+            parrafosalud.innerText = "Normal"
+        } else {
+            parrafosalud.innerText = "Sobrepeso"
+        }
+
+        }
+    </script>
+</body>
+</html>

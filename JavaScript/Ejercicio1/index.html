@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>edad validacion</p>
+    <input id="hola">
+    <button onclick= "validacion()">Validar</button>
+    <p id="parrafo"></p>
+
+    <script>
+        function validacion(){
+            var input = document.getElementById("hola").value;
+            var parrafo = document.getElementById("parrafo");
+            if(input > 0 && input < 150){
+                parrafo.innerText = "Perfecto"
+            }else{
+                parrafo.innerText = "Vas a morir"
+            }
+        }
+    </script>
+</body>
+</html>

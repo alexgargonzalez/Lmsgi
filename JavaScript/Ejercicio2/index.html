@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Calculo de descuento</h1>
+    <p>Introduce tu precio:</p>
+    <input type="text" id="precio">
+    <p>Introduce tu descuento:</p>
+    <input type="text" id="descuento">
+    <button onclick="calcular()" style="display: block; margin-top: 20px;">Click aqui para calcular</button>
+
+    <p id="resultado"></p>
+    <script>
+
+        function calcular(){
+        let precio = document.getElementById("precio").value;
+        let descuento = document.getElementById("descuento").value;
+        let parrafo = document.getElementById("resultado");
+        
+        let xd = parrafo.innerText = precio - (precio * descuento / 100);
+
+
+        }
+    </script>
+
+</body>
+</html>
